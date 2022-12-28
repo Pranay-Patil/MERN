@@ -1,5 +1,0 @@
-const app = require("../index");
-const config = require("../config");
-port = config.WWW_PORT;
-
-app.listen(port, (req, res) => console.log("Bulk server is running"));
